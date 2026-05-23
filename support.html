@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英阅词 - 技术支持</title>
+  <meta name="description" content="英阅词 App 技术支持页面。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shell nav">
+    <a class="brand" href="./">
+      <img src="assets/app-icon.png" alt="英阅词图标">
+      <span>英阅词</span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="support.html">技术支持</a>
+      <a href="privacy.html">隐私声明</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <img src="assets/app-icon.png" alt="英阅词 App 图标">
+      <div>
+        <span class="badge">Support</span>
+        <h1>技术支持</h1>
+        <p class="lead">这里提供英阅词的常见问题、使用建议和反馈入口。</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>获取帮助</h2>
+      <p>如果你在使用英阅词时遇到问题，可以通过 GitHub Issues 提交反馈：</p>
+      <p><a href="https://github.com/wuyafei/EngBookReader/issues">https://github.com/wuyafei/EngBookReader/issues</a></p>
+      <p class="meta">提交问题时，建议附上设备型号、iOS 版本、App 版本、复现步骤和截图。</p>
+    </section>
+
+    <section class="panel">
+      <h2>常见问题</h2>
+
+      <h3>如何导入 EPUB？</h3>
+      <p>进入“书架”，点击左上角加号，选择本地 EPUB 文件导入。</p>
+
+      <h3>如何导入英文文章？</h3>
+      <p>进入“文章”，点击左上角加号，输入可访问的英文文章 URL，应用会尝试抓取正文并导入阅读。</p>
+
+      <h3>为什么在线翻译或 AI 翻译不可用？</h3>
+      <p>请进入“翻译与 AI 设置”，配置对应供应商的 API Key 和模型名称。未配置 API Key 时，相关在线能力不会调用。</p>
+
+      <h3>我的 API Key 存在哪里？</h3>
+      <p>API Key 保存在设备本地的 iOS Keychain 中。开发者不会收集或保存你的 API Key。</p>
+
+      <h3>生词本可以导出吗？</h3>
+      <p>可以。进入“生词本”，使用导出功能生成生词文件。</p>
+    </section>
+
+    <section class="panel">
+      <h2>问题反馈建议</h2>
+      <ul>
+        <li>无法导入 EPUB：请说明文件来源、文件大小，以及是否能被其他阅读器打开。</li>
+        <li>文章抓取失败：请提供文章 URL，并确认网页可在浏览器中访问。</li>
+        <li>翻译失败：请注明使用的翻译供应商、模型名称和错误提示。</li>
+        <li>阅读或查词异常：请提供具体书籍章节、单词和操作步骤。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <span>© 2026 英阅词 · <a href="privacy.html">隐私声明</a></span>
+  </footer>
+</body>
+</html>
